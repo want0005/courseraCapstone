@@ -1,0 +1,212 @@
+a.nav-item{
+  color:white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+a{
+  margin-right:40px;
+}
+#sec1{
+  display:flex;
+  text-align: center;
+  margin-top:50px;
+  background-color:#81D4FA;
+}
+#sec1 p{
+  
+  font-size: 2em;
+}
+#intro{
+  margin:auto;
+  
+}
+#myImg{
+  width:40%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#about{
+  margin-top:50px;
+  text-align: center;
+  background-color:#B3E5FC;
+}
+
+#portfolioWords{
+  text-align:center;
+  background-color:#E1F5FE;
+}
+#contact{
+  text-align:center;
+}
+i{
+  margin: 20px;
+  opacity: 0.9;
+}
+i:hover{
+  opacity:1;
+}
+
+.excelContainer{
+  display:inline-block;
+  position:relative;
+  width: 23%;
+  vertical-align:middle;
+  
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  height: 100%;
+  width: 100%; 
+}
+#excelImg{
+  display: block;
+  height: auto;
+  width: 100%; 
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.excelContainer:hover .overlay {
+  opacity: 1;
+}
+
+.hContainer{
+  display:inline-block;
+  position:relative;
+  width: 23%;
+  vertical-align:middle;
+}
+.hOverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  height: 100%;
+  width: 100%; 
+}
+#hImg{
+  display: block;
+  height: auto;
+  width: 100%; 
+}
+.htext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hContainer:hover .hOverlay {
+  opacity: 1;
+}
+.pContainer{
+  display:inline-block;
+  position:relative;
+  width: 23%;
+  vertical-align: middle;
+  
+}
+.pOverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  height: 100%;
+  width: 100%; 
+}
+#pImg{
+  display: block;
+  height:auto;
+  width: 100%; 
+}
+.ptext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.pContainer:hover .pOverlay {
+  opacity: 1;
+}
+.jContainer{
+  display:inline-block;
+  position:relative;
+  width: 23%;
+  vertical-align:middle;
+  
+}
+.jOverlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  height: 100%;
+  width: 100%; 
+}
+#jImg{
+  display: block;
+  height:auto;
+  width: 100%; 
+}
+.jtext {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.jContainer:hover .jOverlay {
+  opacity: 1;
+}
+#portfolioWords{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+section{
+  margin-bottom: 5rem;
+}
+#goToTop{
+  
+  position: fixed;
+  left: 98%;
+}

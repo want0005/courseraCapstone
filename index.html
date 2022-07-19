@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Web Design For Everybody Capstone</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport"charset="utf-8">
+    <title>Wan Tianyi Portfolio</title>
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9b2ef2c2ae.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg  " id="navbar" style="background-color: #039BE5">
+        <a class="navbar-brand d-lg-none" href="#">MyPortfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav mx-auto">
+      <a class="nav-item nav-link " href="#Home" >Home </a>
+      <a class="nav-item nav-link" href="#About">About</a>
+      <a class="nav-item nav-link" href="#Portfolio">Portfolio</a>
+      <a class="nav-item nav-link" href="#Contact">Contact</a>
+    </div>
+   
+  </div>
+      </nav>
+    	</header>
+    <a id="goToTop" href="#">Top</a>
+    <div id="sec1">
+      <div id="intro">
+      <p id="Home">Hello!</p>
+      <p>I'm Wan Tianyi</p>
+      <P>Student Of Web Design For EveryBody</P>
+        </div>
+      <img src="https://want0005.github.io/courseraCapstone/hand-drawn-web-developers_23-2148819604.jpg" id="myImg" class="d-none d-lg-block">
+    </div>
+    <section id="about">
+      <h1 id="About">About</h1>
+      <p>I'm a student studying at Coursera</P>
+    <p>This is the final project on Web Design For Everybody</p>
+    <p>I'm here trying my best to finish the project<p>
+    <script>
+    function educationButton(){
+      document.getElementById("js").innerHTML = "My education";
+
+    }
+      function workButton(){
+        document.getElementById("js").innerHTML = "My work experiences";
+      }
+      function accomplishmentButton(){
+        document.getElementById("js").innerHTML = "My accomplishments"
+      }
+      
+    </script>
+    <button class="btn" id="clicked" onclick="educationButton()">Education</button>
+    <button class="btn" onclick="workButton()">Work Experience</button>
+    <button class="btn" onclick="accomplishmentButton()">Accomplishment</button>
+    <p id="js"> </p>
+    <script>document.getElementById("clicked").click();</script>
+    </section>
+  <section>
+    <div id="portfolioWords">
+    <h1 id="Portfolio">Portfolio</h1>
+    <p>Following are the skills learnt on Coursera:<p>
+    </div>
+    <div class="d-none d-lg-block">
+    <div class="col-3 excelContainer ms-3 ">
+    <img id="excelImg" src="https://raw.githubusercontent.com/want0005/courseraCapstone/main/excel.jpg"alt="Excel">
+      <div class="overlay">
+        <div class="text">Excel</div>
+      </div>
+      </div>    
+      <div class="hContainer ms-3">       
+      <img id="hImg" src="https://raw.githubusercontent.com/want0005/courseraCapstone/main/htmlcssjs.png" alt="Html/CSS/Javascript">
+        <div class="hOverlay">
+          <div class="htext">
+            Html/CSS/Javascript</div>
+        </div>
+    </div>
+    <div class="pContainer ms-3">
+      <img id="pImg" src="https://raw.githubusercontent.com/want0005/courseraCapstone/main/python.png" alt="Python">
+  <div class="pOverlay">
+    <div class="ptext">Python</div>
+  </div>
+  </div>
+    <div class="jContainer ms-2 ">
+      <img id="jImg" src="https://raw.githubusercontent.com/want0005/courseraCapstone/main/java.jpg" alt="Java">
+      <div class="jOverlay">
+        <div class="jtext">Java</div>
+      </div>
+     </div>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide d-md-none d-lg-none d-xl-none" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://raw.githubusercontent.com/want0005/courseraCapstone/main/excel.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://raw.githubusercontent.com/want0005/courseraCapstone/main/htmlcssjs.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://raw.githubusercontent.com/want0005/courseraCapstone/main/python.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://raw.githubusercontent.com/want0005/courseraCapstone/main/java.jpg" class="d-block w-100" alt="Java">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </section>
+  <section>
+    <div id="contact">
+    <h1 id="Contact">Contact</h1>
+      <a href="https://twitter.com/" target="_top"><i class="fa-brands fa-twitter fa-3x" style="color:#1DA1F2"></i></a>
+      <a href="https://facebook.com/" target="_top"><i class="fa-brands fa-facebook fa-3x" style="color:#4267B2"></i></a>
+      <a href="https://google.com/" target="_top"><i class="fa-brands fa-google fa-3x" style="#4285F4"></i></a>
+  </section>
+    </div>
+  <footer>&copy; Copyright 2022 Wan Tianyi. All Rights Reserved.</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+  
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+</body>
+</html>
